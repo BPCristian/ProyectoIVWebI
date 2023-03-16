@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario #4</title>
+</head>
+<body>
+    <form action="">
+        <table border="1">
+            <tr>
+                <td colspan="2"> <center> Basketball Registration Form </center> </td>
+            </tr>
+            <tr>
+                <td colspan="2">Player Name <br>
+                    <input type="text" placeholder="First">  <input type="text" placeholder="Last">
+                </td>
+            </tr>
+            <tr>
+                <td> Age <br>
+                    <input type="number" name="" id="" style="width: 200px;" min="30">
+                </td>
+
+                <td>Email <br>
+                    <input type="email" name="" id=""  pattern="[a-zA-Z0-9._%+-]+@[\w.-]+\.[com]{3}">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Address <br>
+                    <input type="text" placeholder="Street Address" style="width: 375px;"> <br>
+                    <input type="text"  placeholder="Street Address Line 2" style="width: 375px;">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text" placeholder="City" style="width: 200px;">
+                </td> 
+                <td>
+                    <input type="text" placeholder="Region"> 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text" placeholder="Postal/Zip Code" style="width: 200px;">
+                </td>
+                <td>
+                   <input type="text" placeholder="Country" list="paises"> 
+                   <datalist id="paises">
+                    <option value="Colombia"></option>
+                    <option value="Brazil"></option>
+                    <option value="Peru"></option>
+                   </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Home Phone <br>
+                    <input type="number" placeholder="#### #### ####" style="width: 200px;">
+                </td>
+                <td>Cell phone <br>
+                    <input type="number" placeholder="#### #### ####">
+                </td>
+            </tr>
+        </table>
+       
+    </form>
+</body>
+</html>
